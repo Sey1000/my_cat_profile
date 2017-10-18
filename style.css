@@ -1,0 +1,69 @@
+body {
+  background-image: url('images/cat-wallpaper.jpg');
+  background-size: cover;
+}
+
+h1 {
+  opacity: 0.8;
+  margin-top: 0;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+p {
+  font-family: 'Inconsolata', monospace;
+  font-size: 2em;
+}
+
+.catname {
+  color: #E0590D;
+}
+
+.profile-container {
+  /*border: 1px solid grey;*/
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.profile-card {
+  width: 40%;
+  background: white;
+  margin: 10px 0;
+  padding: 20px 0;
+  min-height: 50px;
+  border-radius: 10px;
+}
+
+.image-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 10px 0;
+}
+
+.cat-info {
+  padding: 10px 40px;
+}
+
+.each-info {
+  display: flex;
+}
+
+.info-key {
+  /*border: 1px solid grey;*/
+  width: 170px;
+}
+
+.info-value {
+  /*border: 1px solid grey;*/
+  flex: 1 1;
+}
